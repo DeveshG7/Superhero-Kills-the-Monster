@@ -73,6 +73,8 @@ function setup() {
  monster1=new Monster(1120, 500, 200)
 
  monster2= new Monster2(830,80, 80)
+ monster45= new Monster2(650,80, 80)
+ monster117= new Monster(900,70, 100)
 }
 
 function draw() {
@@ -136,6 +138,8 @@ function draw() {
 
  monster1.display();
  monster2.display();
+ monster45.display();
+ monster117.display();
 }
 
 function mouseDragged(){
