@@ -41,7 +41,7 @@ class Monster{
             var options = {
               
               'frictionAir':0.01,
-              'density':0.6,
+              'density':0.4,
               'restitution':0.4
             }
            
