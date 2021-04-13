@@ -72,9 +72,9 @@ function setup() {
 
  monster1=new Monster(1120, 500, 200)
 
- monster2= new Monster2(830,80, 80)
- monster45= new Monster2(650,80, 80)
- monster117= new Monster(900,70, 100)
+ monster2= new Monster2(830,80, 55)
+ monster45= new Monster2(650,80, 55)
+ monster117= new Monster(900,70,70)
 }
 
 function draw() {
