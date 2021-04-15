@@ -81,7 +81,6 @@ function draw() {
   Engine.update(engine);
  
  textSize(24)
- fill("RED")
  text("Click The Up Arrow to Make the SuperHero Fly", 100,700)
  
  
