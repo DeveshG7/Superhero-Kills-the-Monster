@@ -73,13 +73,14 @@ function setup() {
  monster1=new Monster(1120, 500, 200)
 
  monster2= new Monster2(830,60, 55)
- monster45= new Monster2(650,60, 55)
- monster117= new Monster(900,70,70)
+ 
 }
 
 function draw() {
   background(bg);
   Engine.update(engine);
+ 
+  text("Click The Up Arrow to Make the SuperHero Fly", 100,100)
  
  strokeWeight(1)
   ground1.display();
@@ -138,8 +139,7 @@ function draw() {
 
  monster1.display();
  monster2.display();
- monster45.display();
- monster117.display();
+
 }
 
 function mouseDragged(){
