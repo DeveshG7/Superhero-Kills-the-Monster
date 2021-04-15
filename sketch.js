@@ -82,8 +82,9 @@ function draw() {
  
  textSize(24)
  strokeWeight(2.5)
- text("Click The Up Arrow to Make the SuperHero Fly", 100,700)
  fill("RED")
+ text("Click The Up Arrow to Make the SuperHero Fly", 100,700)
+ 
  
  strokeWeight(1)
   ground1.display();
