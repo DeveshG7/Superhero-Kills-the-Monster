@@ -80,7 +80,10 @@ function draw() {
   background(bg);
   Engine.update(engine);
  
-  text("Click The Up Arrow to Make the SuperHero Fly", 100,100)
+ textSize(24)
+ strokeWeight(2.5)
+ text("Click The Up Arrow to Make the SuperHero Fly", 100,700)
+ fill("RED")
  
  strokeWeight(1)
   ground1.display();
